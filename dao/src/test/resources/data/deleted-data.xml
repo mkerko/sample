@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <ROOMS ROOM_ID="1" TYPE="ONE_BED" BEDS_AMOUNT="1" PRICE="16"/>
+    <ROOMS ROOM_ID="3" TYPE="TRIPLE" BEDS_AMOUNT="3" PRICE="54"/>
+    <ROOMS ROOM_ID="4" TYPE="LUX" BEDS_AMOUNT="2" PRICE="60"/>
+
+    <USERS USER_ID="1" LOGIN="anyab" FULL_NAME = "Hanna Buklis" EMAIL="anabuklis@gmail.com"/>
+    <USERS USER_ID="2" LOGIN="vbahel" FULL_NAME = "Veronika Bahel" EMAIL="vbagel@gmail.com"/>
+    <USERS USER_ID="3" LOGIN="kromanova" FULL_NAME = "Kate Romanova" EMAIL="kromanova@gmail.com"/>
+
+    <RENTALS RENTAL_ID="1" USER_ID="1" ROOM_ID="1" CHECK_IN_DATE ="2017-08-08" CHECK_OUT_DATE="2017-10-10"/>
+    <RENTALS RENTAL_ID="2" USER_ID="2" ROOM_ID="2" CHECK_IN_DATE ="2017-08-07" CHECK_OUT_DATE="2017-08-08"/>
+    <RENTALS RENTAL_ID="3" USER_ID="1" ROOM_ID="3" CHECK_IN_DATE ="2017-08-17" CHECK_OUT_DATE="2017-08-20"/>
+    <RENTALS RENTAL_ID="4" USER_ID="2" ROOM_ID="4" CHECK_IN_DATE ="2017-09-17" CHECK_OUT_DATE="2017-10-20"/>
+
+    <USERS_SOCIAL/>
+</dataset>

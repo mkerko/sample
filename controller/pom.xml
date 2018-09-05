@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <parent>
+        <groupId>com.epam.booking</groupId>
+        <artifactId>booking</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+  <artifactId>controller</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>controller Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+
+      <dependency>
+          <groupId>io.jsonwebtoken</groupId>
+          <artifactId>jjwt</artifactId>
+          <version>0.7.0</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.epam.booking</groupId>
+          <artifactId>service</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.5</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.jayway.jsonpath</groupId>
+          <artifactId>json-path</artifactId>
+          <version>2.2.0</version>
+          <scope>test</scope>
+      </dependency>
+
+      <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest-all</artifactId>
+          <version>1.3</version>
+          <scope>test</scope>
+      </dependency>
+
+  </dependencies>
+
+</project>
